@@ -74,16 +74,21 @@ En un cluster HPC esto cambia, por ejemplo en el MareNostrum 4:
 
 ### HPC en el BSC
 
+
+![](./data2md/2017_bsc_hpc_mn4.jpg)
+
 [MareNostrum 4](https://www.bsc.es/es/marenostrum/marenostrum)
 
 Se divide en 2 bloques:
 
 + Bloque de propósito general:
-    - 3456 nodos. Cada nodo tiene 2 chips con 24 procesadores cada uno
+    - 3456 nodos. Cada nodo tiene 2 procesadores  Intel Xeon Platinum 8160 con 24 núcleos cada uno
 + Bloque de tecnologías emergentes, formado por 3 clústeres:
     - MN4 CTE-AMD, formado por procesadores AMD Rome y AMD Radeon Instinct MI50.
     - MN4 CTE-Power, constituido por procesadores IBM POWER9 y GPUs NVIDIA Volta
     - MN4 CTE ARM, compuesto por procesadores 64 bit ARMv8.
+
+![](./data2md/chapelstr.png)
 
 
 ![](./data2md/BSC-MN.png)
@@ -93,14 +98,14 @@ Se divide en 2 bloques:
 the European Union’s Connecting Europe Facility and the Horizon 2020 research and innovation programme, as well as the
 Participating States Spain, Portugal, Croatia, and Turkey
  
-+ [Minotauro](https://www.bsc.es/es/marenostrum/minotauro). 38 nodos con 2 procesadores por nodo, 8 cores por procesador
++ [Minotauro](https://www.bsc.es/es/marenostrum/minotauro). 38 nodos con 2 procesadores Intel Xeon E5-2630 v3 por nodo, 8 núcleos por procesador
 + Nord3v2
 + ...
 
 
 ### Software
 
-Sistemas operativos Linux.
+Sistemas operativos Linux, con las aplicaciones que necesitan sus usuarios (cada usuario se instala puede instalarse manualmente las aplicaciones que necesite en el espacio que tiene asignado, o bien puede solicitar que sean instaladas globalmente)
 
 #### Cómo conectarse
 
